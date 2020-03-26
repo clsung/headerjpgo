@@ -39,7 +39,7 @@ func main() {
 		log.Fatal(err)
 	}
 	defer f.Close()
-	_, err = f.Write([]byte{255, 216, 255, 254})
+	_, err = f.Write([]byte{255, 216, 255, 224})
 	if err != nil {
 		log.Fatal(err)
 	}
